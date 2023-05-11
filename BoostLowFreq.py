@@ -16,3 +16,4 @@ eq_boosted = eq_filter + boost_amount
 
 # Save the equalized audio file
 eq_boosted.export('path/to/eq/audio/file', format='wav')
+

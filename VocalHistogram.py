@@ -1,4 +1,4 @@
-!pip install spleeter  # Install spleeter
+# !pip install spleeter  # Install spleeter
 
 import numpy as np
 import matplotlib.pyplot as plt
