@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vocal Range Tuner</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Vocal Range Tuner</h1>
+        </header>
+
+        <div class="content">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/{video_id}" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div class="range-slider">
+                <h2>Select Your Vocal Range</h2>
+                <input type="range" min="0" max="100" value="50" class="slider" id="vocal-range-slider">
+            </div>
+
+            <div class="controls">
+                <button id="play-button">Play</button>
+                <button id="pause-button">Pause</button>
+                <button id="reset-button">Reset</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2023 Vocal Range Tuner. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
