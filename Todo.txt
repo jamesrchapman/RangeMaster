@@ -1,0 +1,7 @@
+To Do:
+
+Return the note range from an audio recording
+
+Connect the pieces, get the website to take a url, pass the url to the python code to download the mp4, convert the mp4 to wav, analyze the wav, get the audio out, analyze the vocal audio. 
+
+Compare the note range from the audio recording to the piece, frequency modulate the piece (the whole piece) so that the vocal range has the greatest overlap with the user's range. 
